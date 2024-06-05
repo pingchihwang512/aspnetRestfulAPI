@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FakeXiechange.API
-build_property.ProjectDir = C:\Users\Benson\Desktop\Backend Study\june2024\.NetCoreAPIStudy\FakeXiechange.API\
+build_property.ProjectDir = C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

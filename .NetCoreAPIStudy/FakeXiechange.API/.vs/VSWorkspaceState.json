@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Services"
   ],
+  "SelectedNode": "\\Services\\MockTouristRouteRepository.cs",
   "PreviewInSolutionExplorer": false
 }
