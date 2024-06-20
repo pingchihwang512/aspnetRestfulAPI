@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FakeXiechange.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240618234137_initialMigration")]
+    [Migration("20240620002501_initialMigration")]
     partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
