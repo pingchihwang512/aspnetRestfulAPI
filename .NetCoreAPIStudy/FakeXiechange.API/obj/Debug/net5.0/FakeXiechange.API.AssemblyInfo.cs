@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FakeXiechange.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d9cf79de4dcf604b844bf6161d3b8a447c4591a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8280ca522f84fdb4a66f3fd675585677f7a624f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FakeXiechange.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FakeXiechange.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

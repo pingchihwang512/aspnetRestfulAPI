@@ -31,10 +31,13 @@ namespace FakeXiechange.API
             services.AddTransient<ITouristRouteRepository, TouristRouteRepository>();
             //services.AddSingleton
             //services.AddScoped
-            services.AddDbContext<AppDbContext>(options => {
-                //options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=FakeXiechengDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
-                //options.UseSqlServer("server=localhost; Database=FakeXichengDb; User Id = sa; Password=PaSSword12!;");
-                options.UseSqlServer(Configuration["DbContext:ConnectionString"]);
+            services.AddDbContext<AppDbContext>(option => {
+                //option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=FakeXiechengDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                //option.UseSqlServer("server=localhost; Database=FakeXiechengDb; User Id=sa; Password=PaSSword12!;");
+                //option.UseSqlServer(Configuration["DbContext:ConnectionString"]);
+                option.UseMySql(
+                    Configuration["DbContext:ConnectionString"],
+                    ServerVersion.AutoDetect(Configuration["DbContext:ConnectionString"]));
             });
         }
 
