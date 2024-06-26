@@ -1,11 +1,10 @@
-﻿using FakeXiechange.API.Models;
-using FakeXiecheng.API.Models;
+﻿using FakeXiecheng.API.Models;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System;
 
-namespace FakeXiechange.API.Dtos
+namespace FakeXiecheng.API.Dtos
 {
     public class TouristRouteDto
     {
@@ -25,5 +24,6 @@ namespace FakeXiechange.API.Dtos
         public string TravelDays { get; set; }
         public string TripType { get; set; }
         public string DepartureCity { get; set; }
+        public ICollection<TouristRoutePictureDto> TouristRoutePictures { get; set; }
     }
 }

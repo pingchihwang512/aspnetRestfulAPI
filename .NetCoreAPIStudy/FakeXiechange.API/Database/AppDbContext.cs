@@ -8,7 +8,7 @@ using FakeXiecheng.API.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace FakeXiechange.API.Database
+namespace FakeXiecheng.API.Database
 {
     public class AppDbContext: DbContext
     {

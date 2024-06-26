@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using FakeXiechange.API.Dtos;
+using FakeXiecheng.API.Dtos;
 using FakeXiecheng.API.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,14 +23,16 @@ namespace FakeXiecheng.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GerTouristRoutes()
+        [HttpHead]
+        public IActionResult GerTouristRoutes([FromQuery] string keyword)// FromQuery vs FromBody
         {
-            var touristRoutesFromRepo = _touristRouteRepository.GetTouristRoutes();
+            var touristRoutesFromRepo = _touristRouteRepository.GetTouristRoutes(keyword);
             if (touristRoutesFromRepo == null || touristRoutesFromRepo.Count() <= 0)
             {
                 return NotFound("沒有旅遊路線");
             }
-            return Ok(touristRoutesFromRepo);
+            var touristRoutesDto = _mapper.Map<IEnumerable<TouristRouteDto>>(touristRoutesFromRepo);
+            return Ok(touristRoutesDto);
         }
 
         [HttpGet("{touristRouteId}")]
@@ -44,5 +46,6 @@ namespace FakeXiecheng.API.Controllers
             var touristRouteDto = _mapper.Map<TouristRouteDto>(touristRouteFromRepo);
             return Ok(touristRouteDto);
         }
+
     }
 }

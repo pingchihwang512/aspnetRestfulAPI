@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FakeXiechange.API.Migrations
+namespace FakeXiecheng.API.Migrations
 {
     public partial class UpdateTouristRouteSchema : Migration
     {

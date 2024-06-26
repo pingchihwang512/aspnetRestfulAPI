@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FakeXiechange.API
+namespace FakeXiecheng.API
 {
     public class Program
     {

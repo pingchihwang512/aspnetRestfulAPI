@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace FakeXiechange.API.Controllers
+namespace FakeXiecheng.API.Controllers
 {
     [Route("api/shoudongapi")]
     public class ShoudongAPIController : ControllerBase

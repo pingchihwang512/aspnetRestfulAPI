@@ -1,4 +1,4 @@
-using FakeXiechange.API.Database;
+using FakeXiecheng.API.Database;
 using FakeXiecheng.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,10 +11,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using FakeXiechange.API.Services;
+using FakeXiecheng.API.Services;
 using AutoMapper;
 
-namespace FakeXiechange.API
+namespace FakeXiecheng.API
 {
     public class Startup
     {

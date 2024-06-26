@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using FakeXiechange.API.Dtos;
+using FakeXiecheng.API.Dtos;
 using FakeXiecheng.API.Models;
 
-namespace FakeXiechange.API.Profiles
+namespace FakeXiecheng.API.Profiles
 {
     public class TouristRouteProfile : Profile
     {
         public TouristRouteProfile() 
         {
             CreateMap<TouristRoute, TouristRouteDto>()
+                  //價格投影
                   .ForMember(
                       dest => dest.Price,
                       opt => opt.MapFrom(src => src.OriginalPrice * (decimal)(src.DiscountPresent ?? 1))
