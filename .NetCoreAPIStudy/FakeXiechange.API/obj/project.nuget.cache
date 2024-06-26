@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rEETYRSJTYxGdaXC1txoWZ615jmqfIksVJMFepqHn3duQ9fVzTWlMWE8vZfiMwsw7HPubfpN/qQMAZFwUynrzg==",
+  "dgSpecHash": "eHBLHFlwgW4q94G0p18n1/dugmcE+mxFVSFKkCR4koSK5FnJpVYPEXKhYAJZTbHp2lLvL71A07lekmxEKdOHSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\FakeXiechange.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Benson\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Benson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

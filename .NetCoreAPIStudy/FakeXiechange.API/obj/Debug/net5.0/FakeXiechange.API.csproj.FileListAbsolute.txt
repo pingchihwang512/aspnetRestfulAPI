@@ -89,3 +89,5 @@ C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXie
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Database\touristRoutesMockData.json
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\MySqlConnector.dll
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

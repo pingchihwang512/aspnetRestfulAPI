@@ -1,37 +1,28 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FakeXiechange.API.Migrations
 {
-    public partial class MySQLInit : Migration
+    public partial class UpdateTouristRouteSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterDatabase()
-                .Annotation("MySql:CharSet", "utf8mb4");
-
             migrationBuilder.CreateTable(
                 name: "TouristRoutes",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
-                    Title = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Description = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     OriginalPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    DiscountPresent = table.Column<double>(type: "double", nullable: true),
-                    CreateTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    UpdateTime = table.Column<DateTime>(type: "datetime(6)", nullable: true),
-                    DepartureTime = table.Column<DateTime>(type: "datetime(6)", nullable: true),
-                    Features = table.Column<string>(type: "longtext", nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Fees = table.Column<string>(type: "longtext", nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Notes = table.Column<string>(type: "longtext", nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Rating = table.Column<double>(type: "double", nullable: true),
+                    DiscountPresent = table.Column<double>(type: "float", nullable: true),
+                    CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    DepartureTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Features = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Fees = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Rating = table.Column<double>(type: "float", nullable: true),
                     TravelDays = table.Column<int>(type: "int", nullable: true),
                     TripType = table.Column<int>(type: "int", nullable: true),
                     DepartureCity = table.Column<int>(type: "int", nullable: true)
@@ -39,18 +30,16 @@ namespace FakeXiechange.API.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TouristRoutes", x => x.Id);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
+                });
 
             migrationBuilder.CreateTable(
                 name: "touristRoutePictures",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Url = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    TouristRouteId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci")
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Url = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    TouristRouteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -61,8 +50,7 @@ namespace FakeXiechange.API.Migrations
                         principalTable: "TouristRoutes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
+                });
 
             migrationBuilder.InsertData(
                 table: "TouristRoutes",
@@ -133,7 +121,14 @@ namespace FakeXiechange.API.Migrations
                     { 5, new Guid("a1fd0bee-0afc-4586-96c8-f46b7c99d2a0"), "../../assets/images/japan-2014618_640.jpg" },
                     { 6, new Guid("a1fd0bee-0afc-4586-96c8-f46b7c99d2a0"), "../../assets/images/osaka-2159435_640.jpg" },
                     { 7, new Guid("a1fd0bee-0afc-4586-96c8-f46b7c99d2a0"), "../../assets/images/louvre-102840_640.jpg" },
-                    { 8, new Guid("a1fd0bee-0afc-4586-96c8-f46b7c99d2a0"), "../../assets/images/castle-1736779_640.jpg" },
+                    { 8, new Guid("a1fd0bee-0afc-4586-96c8-f46b7c99d2a0"), "../../assets/images/castle-1736779_640.jpg" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "touristRoutePictures",
+                columns: new[] { "Id", "TouristRouteId", "Url" },
+                values: new object[,]
+                {
                     { 9, new Guid("3ecbcd92-a9e0-45f7-9b29-e03272cb0862"), "../../assets/images/ocean-829715_640.jpg" },
                     { 10, new Guid("3ecbcd92-a9e0-45f7-9b29-e03272cb0862"), "../../assets/images/osaka-2159435_640.jpg" },
                     { 11, new Guid("3ecbcd92-a9e0-45f7-9b29-e03272cb0862"), "../../assets/images/milky-way-1023340_640.jpg" },
