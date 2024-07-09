@@ -1,6 +1,7 @@
 ﻿using FakeXiecheng.API.Database;
 using FakeXiecheng.API.Models;
 using FakeXiecheng.API.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace FakeXiecheng.API.Services
             return _context.TouristRoutes.Include(t => t.TouristRoutePictures).FirstOrDefault(n => n.Id == touristRouteId);
         }
 
-        public IEnumerable<TouristRoute> GetTouristRoutes(string keyword)
+        public IEnumerable<TouristRoute> GetTouristRoutes(string keyword, string ratingOperator, int ratingValue)
         {
             IQueryable<TouristRoute> result = _context
                 .TouristRoutes
@@ -32,6 +33,17 @@ namespace FakeXiecheng.API.Services
                 keyword = keyword.Trim();
                 result = result.Where(t => t.Title.Contains(keyword));
             }
+
+            if(ratingValue >= 0)
+            {
+                result= ratingOperator switch
+                { 
+                    "largerThan" => result.Where(t => t.Rating >= ratingValue),
+                    "lessThan" => result.Where (t => t.Rating <= ratingValue),
+                    _ => result.Where(t => t.Rating == ratingValue),
+                };
+            }
+
             // include vs join
             return result.ToList();
         }

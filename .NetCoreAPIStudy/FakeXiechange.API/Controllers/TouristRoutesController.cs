@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AutoMapper;
+using FakeXiechange.API.ResourceParameters;
 using FakeXiecheng.API.Dtos;
 using FakeXiecheng.API.Services;
 using Microsoft.AspNetCore.Http;
@@ -24,9 +26,21 @@ namespace FakeXiecheng.API.Controllers
 
         [HttpGet]
         [HttpHead]
-        public IActionResult GerTouristRoutes([FromQuery] string keyword)// FromQuery vs FromBody
+        public IActionResult GerTouristRoutes(
+            [FromQuery] TouristRouteResourceParameters parameters
+
+        )// FromQuery vs FromBody
         {
-            var touristRoutesFromRepo = _touristRouteRepository.GetTouristRoutes(keyword);
+            Regex regex = new Regex(@"([A-Za-z0-p]+)(\d+)");
+            string operatorType = "";
+            int raringValue = -1;
+            Match match = regex.Match(parameters.Rating);
+            if( match.Success) {
+                operatorType = match.Groups[1].Value;
+                raringValue = Int32.Parse(match.Groups[2].Value);
+            }
+
+            var touristRoutesFromRepo = _touristRouteRepository.GetTouristRoutes(parameters.Keyword, operatorType, raringValue);
             if (touristRoutesFromRepo == null || touristRoutesFromRepo.Count() <= 0)
             {
                 return NotFound("沒有旅遊路線");
