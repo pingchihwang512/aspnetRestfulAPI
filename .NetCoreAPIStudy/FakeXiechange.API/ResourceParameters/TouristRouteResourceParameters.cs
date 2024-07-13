@@ -4,19 +4,20 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace FakeXiechange.API.ResourceParameters
+namespace FakeXiecheng.API.ResourceParameters
 {
-    public class TouristRouteResourceParameters
+    public class TouristRouteResourceParamaters
     {
         public string Keyword { get; set; }
         public string RatingOperator { get; set; }
         public int? RatingValue { get; set; }
-        public string _rating;
-        public string Rating {
+        private string _rating;
+        public string Rating
+        {
             get { return _rating; }
-            set 
+            set
             {
-                if (!string.IsNullOrWhiteSpace(value)) 
+                if (!string.IsNullOrWhiteSpace(value))
                 {
                     Regex regex = new Regex(@"([A-Za-z0-9\-]+)(\d+)");
                     Match match = regex.Match(value);
@@ -25,7 +26,7 @@ namespace FakeXiechange.API.ResourceParameters
                         RatingOperator = match.Groups[1].Value;
                         RatingValue = Int32.Parse(match.Groups[2].Value);
                     }
-                } 
+                }
                 _rating = value;
             }
         }

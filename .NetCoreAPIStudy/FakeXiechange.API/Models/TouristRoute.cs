@@ -16,7 +16,7 @@ namespace FakeXiecheng.API.Models
         [MaxLength(100)]
         public string Title { get; set; }
         [Required]
-        [MaxLength(100)]
+        [MaxLength(1500)]
         public string Description { get; set; }
         [Column(TypeName = "decimal(18, 2)")]
         public decimal OriginalPrice { get; set; }

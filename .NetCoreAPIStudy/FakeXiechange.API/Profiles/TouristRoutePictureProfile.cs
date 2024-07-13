@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FakeXiechange.API.Dtos;
 using FakeXiecheng.API.Dtos;
 using FakeXiecheng.API.Models;
 
@@ -13,6 +14,8 @@ namespace FakeXiecheng.API.Profiles
         public TouristRoutePictureProfile()
         {
             CreateMap<TouristRoutePicture, TouristRoutePictureDto>();
+            CreateMap<TouristRoutePictureForCreationDto, TouristRoutePicture>();
+            CreateMap<TouristRoutePicture, TouristRoutePictureForCreationDto>();
         }
     }
 }

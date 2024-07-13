@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FakeXiechange.API.Dtos;
 using FakeXiecheng.API.Dtos;
 using FakeXiecheng.API.Models;
 
@@ -30,6 +31,14 @@ namespace FakeXiecheng.API.Profiles
                       dest => dest.DepartureCity,
                       opt => opt.MapFrom(src => src.DepartureCity.ToString())
                   );
+            CreateMap<TouristRouteForCreationDto, TouristRoute>()
+                .ForMember(
+                    dest => dest.Id,
+                    opt => opt.MapFrom(src => Guid.NewGuid())
+                );
+            CreateMap<TouristRouteForUpdateDto, TouristRoute>();
+
+            CreateMap<TouristRoute, TouristRouteForUpdateDto>();
         }
     }
 }

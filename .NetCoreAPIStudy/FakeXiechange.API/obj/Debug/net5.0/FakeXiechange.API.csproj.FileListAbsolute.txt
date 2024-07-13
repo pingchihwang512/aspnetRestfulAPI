@@ -91,3 +91,6 @@ C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXie
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Benson\Desktop\github-storage\aspnetRestfulAPI\.NetCoreAPIStudy\FakeXiechange.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

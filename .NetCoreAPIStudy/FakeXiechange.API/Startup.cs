@@ -1,4 +1,4 @@
-using FakeXiecheng.API.Database;
+﻿using FakeXiecheng.API.Database;
 using FakeXiecheng.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using FakeXiecheng.API.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Serialization;
 
 namespace FakeXiecheng.API
 {
@@ -30,7 +32,30 @@ namespace FakeXiecheng.API
         {
             services.AddControllers(setupAction => { 
                 setupAction.ReturnHttpNotAcceptable = true; 
-            }).AddXmlDataContractSerializerFormatters(); 
+            })
+            .AddNewtonsoftJson(setupAction =>
+            {
+                setupAction.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            })    
+            .AddXmlDataContractSerializerFormatters()
+            .ConfigureApiBehaviorOptions(setupAction => {
+                setupAction.InvalidModelStateResponseFactory = context =>
+                {
+                    var problemDetail = new ValidationProblemDetails(context.ModelState)
+                    {
+                        Type = "無所謂",
+                        Title = "數據驗證失敗",
+                        Status = StatusCodes.Status422UnprocessableEntity,
+                        Detail = "請看詳細說明",
+                        Instance = context.HttpContext.Request.Path
+                    };
+                    problemDetail.Extensions.Add("traceId", context.HttpContext.TraceIdentifier);
+                    return new UnprocessableEntityObjectResult(problemDetail)
+                    {
+                        ContentTypes = { "application/problem+json" }
+                    };
+                };
+            }); 
             services.AddTransient<ITouristRouteRepository, TouristRouteRepository>();
             //services.AddSingleton
             //services.AddScoped
