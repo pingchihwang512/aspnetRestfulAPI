@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristrouteforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristrouteforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristrouteforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristrouteforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristrouteformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristrouteformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\validationattributes\\touristroutetitlemustbedifferentfromdescriptionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:validationattributes\\touristroutetitlemustbedifferentfromdescriptionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\controllers\\touristroutescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:controllers\\touristroutescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,52 +11,60 @@
       "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\profiles\\touristroutepictureprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:profiles\\touristroutepictureprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\profiles\\touristrouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:profiles\\touristrouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristroutepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristroutepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristroutepictureforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristroutepictureforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\models\\touristroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:models\\touristroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\controllers\\touristroutepicturescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:controllers\\touristroutepicturescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\resourceparameters\\touristrouteresourceparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:resourceparameters\\touristrouteresourceparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\services\\touristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:services\\touristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\services\\mocktouristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:services\\mocktouristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\services\\itouristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:services\\itouristrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\helper\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:helper\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\models\\triptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:models\\triptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\models\\touristroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:models\\touristroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\models\\departurecity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:models\\departurecity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\profiles\\touristrouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:profiles\\touristrouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\profiles\\touristroutepictureprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:profiles\\touristroutepictureprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|c:\\users\\benson\\desktop\\github-storage\\aspnetrestfulapi\\.netcoreapistudy\\fakexiechange.api\\dtos\\touristroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EAD88B-1751-43E3-9DE0-D135D7F0FBAC}|FakeXiechange.API.csproj|solutionrelative:dtos\\touristroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,236 +142,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TouristRouteForManipulationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForManipulationDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRouteForManipulationDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForManipulationDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRouteForManipulationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T23:35:32.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TouristRouteForUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForUpdateDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRouteForUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForUpdateDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRouteForUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T23:13:21.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TouristRouteForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForCreationDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRouteForCreationDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteForCreationDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRouteForCreationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T23:14:20.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TouristRouteTitleMustBeDifferentFromDescriptionAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\ValidationAttributes\\TouristRouteTitleMustBeDifferentFromDescriptionAttribute.cs",
-              "RelativeDocumentMoniker": "ValidationAttributes\\TouristRouteTitleMustBeDifferentFromDescriptionAttribute.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\ValidationAttributes\\TouristRouteTitleMustBeDifferentFromDescriptionAttribute.cs",
-              "RelativeToolTip": "ValidationAttributes\\TouristRouteTitleMustBeDifferentFromDescriptionAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T22:43:57.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA6AAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:58:39.205Z",
+              "WhenOpened": "2024-07-22T20:56:09.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TouristRoutePictureProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRoutePictureProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\TouristRoutePictureProfile.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRoutePictureProfile.cs",
-              "RelativeToolTip": "Profiles\\TouristRoutePictureProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T18:53:41.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TouristRoutesController.cs",
               "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\TouristRoutesController.cs",
               "RelativeDocumentMoniker": "Controllers\\TouristRoutesController.cs",
               "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\TouristRoutesController.cs",
               "RelativeToolTip": "Controllers\\TouristRoutesController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAowIAAAAAzAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T18:31:47.93Z",
+              "WhenOpened": "2024-07-30T21:46:17.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TouristRouteProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRouteProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\TouristRouteProfile.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRouteProfile.cs",
-              "RelativeToolTip": "Profiles\\TouristRouteProfile.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAABAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T23:23:27.994Z",
+              "WhenOpened": "2024-07-30T23:11:51.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TouristRoutePictureDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRoutePictureDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRoutePictureDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRoutePictureDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRoutePictureDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T18:49:39.609Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T23:20:12.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TouristRouteDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRouteDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRouteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T18:49:38.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TouristRoutePictureForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRoutePictureForCreationDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TouristRoutePictureForCreationDto.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRoutePictureForCreationDto.cs",
-              "RelativeToolTip": "Dtos\\TouristRoutePictureForCreationDto.cs",
+              "DocumentIndex": 4,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Dtos\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T18:46:13.814Z",
+              "WhenOpened": "2024-07-30T23:14:17.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TouristRoute.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TouristRoute.cs",
-              "RelativeDocumentMoniker": "Models\\TouristRoute.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TouristRoute.cs",
-              "RelativeToolTip": "Models\\TouristRoute.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T22:12:44.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "TouristRoutePicturesController.cs",
               "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\TouristRoutePicturesController.cs",
               "RelativeDocumentMoniker": "Controllers\\TouristRoutePicturesController.cs",
               "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Controllers\\TouristRoutePicturesController.cs",
               "RelativeToolTip": "Controllers\\TouristRoutePicturesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:59:51.397Z",
+              "WhenOpened": "2024-07-30T20:50:04.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TouristRouteResourceParameters.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\ResourceParameters\\TouristRouteResourceParameters.cs",
-              "RelativeDocumentMoniker": "ResourceParameters\\TouristRouteResourceParameters.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\ResourceParameters\\TouristRouteResourceParameters.cs",
-              "RelativeToolTip": "ResourceParameters\\TouristRouteResourceParameters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T22:03:27.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Database\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Database\\AppDbContext.cs",
-              "RelativeToolTip": "Database\\AppDbContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA4AAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:50:08.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "TouristRouteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\TouristRouteRepository.cs",
               "RelativeDocumentMoniker": "Services\\TouristRouteRepository.cs",
               "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\TouristRouteRepository.cs",
               "RelativeToolTip": "Services\\TouristRouteRepository.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAApwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T19:12:35.229Z",
+              "WhenOpened": "2024-07-17T23:13:48.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MockTouristRouteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\MockTouristRouteRepository.cs",
-              "RelativeDocumentMoniker": "Services\\MockTouristRouteRepository.cs",
-              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\MockTouristRouteRepository.cs",
-              "RelativeToolTip": "Services\\MockTouristRouteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:56:57.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 7,
               "Title": "ITouristRouteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\ITouristRouteRepository.cs",
               "RelativeDocumentMoniker": "Services\\ITouristRouteRepository.cs",
               "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Services\\ITouristRouteRepository.cs",
               "RelativeToolTip": "Services\\ITouristRouteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T22:03:53.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArrayModelBinder.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Helper\\ArrayModelBinder.cs",
+              "RelativeDocumentMoniker": "Helper\\ArrayModelBinder.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Helper\\ArrayModelBinder.cs",
+              "RelativeToolTip": "Helper\\ArrayModelBinder.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwCkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:48:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripType.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TripType.cs",
+              "RelativeDocumentMoniker": "Models\\TripType.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TripType.cs",
+              "RelativeToolTip": "Models\\TripType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:56:58.465Z",
+              "WhenOpened": "2024-07-30T20:20:14.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TouristRoute.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TouristRoute.cs",
+              "RelativeDocumentMoniker": "Models\\TouristRoute.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\TouristRoute.cs",
+              "RelativeToolTip": "Models\\TouristRoute.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:20:03.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartureCity.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\DepartureCity.cs",
+              "RelativeDocumentMoniker": "Models\\DepartureCity.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Models\\DepartureCity.cs",
+              "RelativeToolTip": "Models\\DepartureCity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:20:02.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TouristRoutePictureProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRoutePictureProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\TouristRoutePictureProfile.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRoutePictureProfile.cs",
+              "RelativeToolTip": "Profiles\\TouristRoutePictureProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:20:09.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TouristRouteProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRouteProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\TouristRouteProfile.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Profiles\\TouristRouteProfile.cs",
+              "RelativeToolTip": "Profiles\\TouristRouteProfile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:20:10.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T21:00:57.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TouristRouteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\TouristRouteDto.cs",
+              "ToolTip": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\Dtos\\TouristRouteDto.cs",
+              "RelativeToolTip": "Dtos\\TouristRouteDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:13:21.869Z",
               "EditorCaption": ""
             }
           ]

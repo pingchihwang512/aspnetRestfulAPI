@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+OPnt5qcqQmPmozYVGzbVtBvGOOPkITOl0yYhIYv8VUtjWf420QYDYehghGWaf5Fqumha8yEw/CKXcOav8Wy4A==",
+  "dgSpecHash": "ND9K+4Co09RKKSb3E5HdRFleIRL+55GLRFMIcaEAud/K4/suwcZJIGwhLwwuFrzuU8nUsg+od5ZmE6QCChj1Ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Benson\\Desktop\\github-storage\\aspnetRestfulAPI\\.NetCoreAPIStudy\\FakeXiechange.API\\FakeXiechange.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Benson\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Benson\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.5\\microsoft.aspnetcore.authentication.jwtbearer.3.1.5.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.4\\microsoft.aspnetcore.jsonpatch.3.1.4.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.4\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.4.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -105,5 +106,16 @@
     "C:\\Users\\Benson\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Benson\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Authentication.JwtBearer' 3.1.5 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
