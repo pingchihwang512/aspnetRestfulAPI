@@ -4,14 +4,16 @@ using FakeXiecheng.API.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FakeXiecheng.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240806171950_ApplicationUserMigration")]
+    partial class ApplicationUserMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -91,65 +93,19 @@ namespace FakeXiecheng.API.Migrations
                         {
                             Id = "90184155-dee0-40c9-bb1e-b5ed07afc04e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b9bf0ff1-b834-4cc5-8c75-94391d9d6148",
+                            ConcurrencyStamp = "10e8986d-ea8c-46ea-bf90-cdc47d52ca60",
                             Email = "admin@fakexiecheng.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@FAKEXIECHENG.COM",
                             NormalizedUserName = "ADMIN@FAKEXIECHENG.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJtnv2ak+/D6Y8LYrreLbEgIWg6FdFcYuEAPcneISdBYc+vpMFRBkjjvcaYImq1hkA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPLi74qbT3gy4eLrslhmx3RFxHarK5Xb+KUUspH+6qIVSOIq09GtChwmlxjujPdurg==",
                             PhoneNumber = "123456789",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c35531db-48ee-4e98-bf05-e20582cbce8e",
+                            SecurityStamp = "839428b4-a912-493b-a7fa-2933381aead1",
                             TwoFactorEnabled = false,
                             UserName = "admin@fakexiecheng.com"
                         });
-                });
-
-            modelBuilder.Entity("FakeXiechange.API.Models.LineItem", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<double?>("DiscountPresent")
-                        .HasColumnType("float");
-
-                    b.Property<decimal>("OriginalPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<Guid?>("ShoppingCartId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("TouristRouteId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ShoppingCartId");
-
-                    b.HasIndex("TouristRouteId");
-
-                    b.ToTable("LineItems");
-                });
-
-            modelBuilder.Entity("FakeXiechange.API.Models.ShoppingCart", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId")
-                        .IsUnique()
-                        .HasFilter("[UserId] IS NOT NULL");
-
-                    b.ToTable("ShoppingCarts");
                 });
 
             modelBuilder.Entity("FakeXiecheng.API.Models.TouristRoute", b =>
@@ -913,7 +869,7 @@ namespace FakeXiecheng.API.Migrations
                         new
                         {
                             Id = "308660dc-ae51-480f-824d-7dca6714c3e2",
-                            ConcurrencyStamp = "6de9bfad-cb47-4759-89bb-2d29a5ba90d8",
+                            ConcurrencyStamp = "52b52244-24a1-46f1-bee6-e449424ac90e",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -1050,30 +1006,6 @@ namespace FakeXiecheng.API.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("FakeXiechange.API.Models.LineItem", b =>
-                {
-                    b.HasOne("FakeXiechange.API.Models.ShoppingCart", null)
-                        .WithMany("ShoppingCartItems")
-                        .HasForeignKey("ShoppingCartId");
-
-                    b.HasOne("FakeXiecheng.API.Models.TouristRoute", "TouristRoute")
-                        .WithMany()
-                        .HasForeignKey("TouristRouteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("TouristRoute");
-                });
-
-            modelBuilder.Entity("FakeXiechange.API.Models.ShoppingCart", b =>
-                {
-                    b.HasOne("FakeXiechange.API.Models.ApplicationUser", "User")
-                        .WithOne("ShoppingCart")
-                        .HasForeignKey("FakeXiechange.API.Models.ShoppingCart", "UserId");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("FakeXiecheng.API.Models.TouristRoutePicture", b =>
                 {
                     b.HasOne("FakeXiecheng.API.Models.TouristRoute", "TouristRoute")
@@ -1158,16 +1090,9 @@ namespace FakeXiecheng.API.Migrations
 
                     b.Navigation("Logins");
 
-                    b.Navigation("ShoppingCart");
-
                     b.Navigation("Tokens");
 
                     b.Navigation("UserRoles");
-                });
-
-            modelBuilder.Entity("FakeXiechange.API.Models.ShoppingCart", b =>
-                {
-                    b.Navigation("ShoppingCartItems");
                 });
 
             modelBuilder.Entity("FakeXiecheng.API.Models.TouristRoute", b =>

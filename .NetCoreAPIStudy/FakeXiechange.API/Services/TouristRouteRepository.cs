@@ -1,4 +1,5 @@
-﻿using FakeXiecheng.API.Database;
+﻿using FakeXiechange.API.Models;
+using FakeXiecheng.API.Database;
 using FakeXiecheng.API.Models;
 using FakeXiecheng.API.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -109,6 +110,25 @@ namespace FakeXiecheng.API.Services
         public void DeleteTouristRoutes(IEnumerable<TouristRoute> touristRoutes)
         {
             _context.TouristRoutes.RemoveRange(touristRoutes);
+        }
+
+        public async Task<ShoppingCart> GetShoppingCartByUserId(string userId)
+        {
+            return await _context.ShoppingCarts
+                .Include(s => s.User)
+                .Include(s => s.ShoppingCartItems).ThenInclude(li => li.TouristRoute)
+                .Where(s => s.UserId == userId)
+                .FirstOrDefaultAsync();
+        }
+
+        public async Task CreateShoppingCart(ShoppingCart shoppingCart)
+        {
+            await _context.ShoppingCarts.AddAsync(shoppingCart);
+        }
+
+        public async Task AddShoppingCartItem(LineItem lineItem)
+        {
+            await _context.LineItems.AddAsync(lineItem);
         }
 
         public async Task<bool> SaveAsync()

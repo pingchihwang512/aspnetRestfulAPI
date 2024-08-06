@@ -9,6 +9,7 @@ namespace FakeXiechange.API.Models
         public string Address { get; set; } 
 
         //Shopping Cart
+        public ShoppingCart ShoppingCart { get; set; }
 
         //Order
 
